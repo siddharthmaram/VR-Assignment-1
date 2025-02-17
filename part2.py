@@ -1,17 +1,12 @@
 import cv2
 import numpy as np
 
-IMG_NO = 2
-
 # Image folders
 input_folder = "InputImages/"
 output_folder = "OutputImages/"
 
 # Images
-if IMG_NO == 1:
-    imgs = ["board_1.jpg", "board_2.jpg"]
-else:
-    imgs = ["flowers_1.jpg", "flowers_2.jpg"]
+imgs = ["flowers_1.jpg", "flowers_2.jpg"]
 
 # Load the images
 img1 = cv2.imread(input_folder+imgs[0])  # Query image

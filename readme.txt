@@ -4,7 +4,6 @@ part2.py - Panoroma creation
 InputImages folder
 - "indian_coins.png" is the image used for segmenting coins.
 - "flowers_1.jpg" and "flowers_2.jpg" are used to create the panaroma. 
-- You can change IMG_NO variable at the top of "part2.py" to 1 to create panaroma of images "board_1.jpg" and "board_2.jpg".
 
 OutputImages folder
 - "segmented_coins_{coin_no}.jpg" are the segmented outputs of each coin in the image.
